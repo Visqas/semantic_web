@@ -1,0 +1,21 @@
+@prefix : <http://localhost/swcourse/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xfn: <http://www.w3.org/2001/XMLSchema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix schema: <http://schema.org/>.
+
+:vika_kalinina rdf:type foaf:Person;
+	       foaf:name "Vika Kalinina"@en,
+		         "Вика Калинина"@ru;
+	       foaf:mbox <mailto:vika.kalinina@gmail.com>,
+		         <mailto:vika.kalinina@kpfu.ru>;
+	       schema:birthDate "1996-10-20"^^xsd:date;
+	       foaf:knows :bulat_ismagilov,
+			  :rostislav_katin,
+		          [
+			  rdf:type foaf:Person;
+			  foaf:name "Rostislav Katin"@en,
+				    "Ростислав Катин"@ru;
+			  ];
+	       foaf:interest <http://dbpedia.org/resource/Alternative_rock>,
+	       		     <http://dbpedia.org/resource/Film>.
