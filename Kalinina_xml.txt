@@ -17,5 +17,5 @@
 			  foaf:name "Rostislav Katin"@en,
 				    "Ростислав Катин"@ru;
 			  ];
-	       foaf:interest <http://dbpedia.org/resource/Alternative_rock>,
-	       		     <http://dbpedia.org/resource/Film>.
+	       foaf:interest <http://dbpedia.org/resource/Better_(Guns_N'_Roses_song)>,
+	       		     	  http://dbpedia.org/resource/The_Shawshank_Redemption>.
