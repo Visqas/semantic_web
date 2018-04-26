@@ -18,4 +18,5 @@
 			  foaf:name "Rostislav Katin"@en,
 				    "Ростислав Катин"@ru;
 			  ];
-	       foaf:interest <http://dbpedia.org/resource/Better_(Guns_N'_Roses_song)>.
+	       foaf:interest <http://dbpedia.org/resource/Better_(Guns_N'_Roses_song)>,
+	       		     <http://dbpedia.org/resource/All_My_Life_(Foo_Fighters_song)>.
