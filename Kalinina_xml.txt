@@ -10,8 +10,8 @@
 	       foaf:mbox <mailto:vika.kalinina@gmail.com>,
 		         <mailto:vika.kalinina@kpfu.ru>;
 	       schema:birthDate "1996-10-20"^^xsd:date;
-	       foaf:knows :bulat_ismagilov,
-			  :rostislav_katin,
+	       foaf:knows :ismagilov_bulat,
+			  :katin_rostislav,
 		          [
 			  rdf:type foaf:Person;
 			  foaf:name "Rostislav Katin"@en,
