@@ -3,6 +3,7 @@
 @prefix xfn: <http://www.w3.org/2001/XMLSchema#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 :vika_kalinina rdf:type foaf:Person;
 	       foaf:name "Vika Kalinina"@en,
@@ -10,12 +11,12 @@
 	       foaf:mbox <mailto:vika.kalinina@gmail.com>,
 		         <mailto:vika.kalinina@kpfu.ru>;
 	       schema:birthDate "1996-10-20"^^xsd:date;
-	       foaf:knows :bulat_ismagilov,
-			  :rostislav_katin,
+	       foaf:knows :ismagilov_bulat,
+			  :katin_rostislav,
 		          [
 			  rdf:type foaf:Person;
 			  foaf:name "Rostislav Katin"@en,
 				    "Ростислав Катин"@ru;
 			  ];
 	       foaf:interest <http://dbpedia.org/resource/Better_(Guns_N'_Roses_song)>,
-	       		     	  http://dbpedia.org/resource/The_Shawshank_Redemption>.
+	       		     <http://dbpedia.org/resource/All_My_Life_(Foo_Fighters_song)>.
