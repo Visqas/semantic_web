@@ -1,0 +1,15 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?city_name, count(?laureate) as ?count
+{
+?laureate rdf:type foaf:Person;
+         dbo:award dbr:Nobel_Prize_in_Physiology_or_Medicine;
+         dbo:birthPlace ?birth_place.
+?birth_place rdf:type dbo:City;
+             rdfs:label ?city_name.
+
+FILTER (lang(?city_name) = "ru")
+}
+GROUP BY ?city_name
+ORDER BY DESC(?count)
